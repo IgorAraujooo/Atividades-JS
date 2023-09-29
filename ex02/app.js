@@ -5,7 +5,7 @@
 * Versão: 1.0                                                                                                                     * 
 ***********************************************************************************************************************************/
 
-const calcNotas = require('./modulo/notas');
+const calcNotas = require('./modulo/notas.js');
 const readline = require('readline');
 const entradaDados = readline.createInterface({
     input: process.stdin,
